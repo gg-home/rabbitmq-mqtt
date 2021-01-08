@@ -1,6 +1,6 @@
 FROM rabbitmq
 
-MAINTAINER Elders
+MAINTAINER mynkow
 
 RUN rabbitmq-plugins enable --offline rabbitmq_management rabbitmq_mqtt
 
